@@ -8,13 +8,19 @@
 import SwiftUI
 
 struct SkiDetailsView: View {
+    let resort: Resort
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Group {
+            Text("Elevation: \(resort.elevation)m")
+            Spacer().frame(height: 0)
+            Text("Snow: \(resort.snowDepth)cm")
+        }
     }
 }
 
 struct SkiDetailsView_Previews: PreviewProvider {
     static var previews: some View {
-        SkiDetailsView()
+        SkiDetailsView(resort: Resort.example)
     }
 }

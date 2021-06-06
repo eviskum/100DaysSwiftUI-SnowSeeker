@@ -3,23 +3,38 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		901F06A9266932220025F789 /* Facility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901F06A8266932220025F789 /* Facility.swift */; };
+		901F06AB266939040025F789 /* Favorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901F06AA266939040025F789 /* Favorites.swift */; };
 		90F9CE1F2667EE7C005A6BCD /* SnowSeekerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F9CE1E2667EE7C005A6BCD /* SnowSeekerApp.swift */; };
 		90F9CE212667EE7C005A6BCD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F9CE202667EE7C005A6BCD /* ContentView.swift */; };
 		90F9CE232667EE80005A6BCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90F9CE222667EE80005A6BCD /* Assets.xcassets */; };
 		90F9CE262667EE80005A6BCD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90F9CE252667EE80005A6BCD /* Preview Assets.xcassets */; };
+		90F9CE2E2667F209005A6BCD /* ResortModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F9CE2D2667F209005A6BCD /* ResortModel.swift */; };
+		90F9CE312667F6FF005A6BCD /* FileManagerExtension in Frameworks */ = {isa = PBXBuildFile; productRef = 90F9CE302667F6FF005A6BCD /* FileManagerExtension */; };
+		90F9CE332667F883005A6BCD /* resorts.json in Resources */ = {isa = PBXBuildFile; fileRef = 90F9CE322667F883005A6BCD /* resorts.json */; };
+		90F9CE352668EDBC005A6BCD /* ResortView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F9CE342668EDBC005A6BCD /* ResortView.swift */; };
+		90F9CE372668EFC2005A6BCD /* SkiDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F9CE362668EFC2005A6BCD /* SkiDetailsView.swift */; };
+		90F9CE392668F08E005A6BCD /* ResortDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F9CE382668F08E005A6BCD /* ResortDetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		901F06A8266932220025F789 /* Facility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Facility.swift; sourceTree = "<group>"; };
+		901F06AA266939040025F789 /* Favorites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorites.swift; sourceTree = "<group>"; };
 		90F9CE1B2667EE7C005A6BCD /* SnowSeeker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnowSeeker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90F9CE1E2667EE7C005A6BCD /* SnowSeekerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnowSeekerApp.swift; sourceTree = "<group>"; };
 		90F9CE202667EE7C005A6BCD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		90F9CE222667EE80005A6BCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90F9CE252667EE80005A6BCD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		90F9CE272667EE80005A6BCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90F9CE2D2667F209005A6BCD /* ResortModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResortModel.swift; sourceTree = "<group>"; };
+		90F9CE322667F883005A6BCD /* resorts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = resorts.json; sourceTree = "<group>"; };
+		90F9CE342668EDBC005A6BCD /* ResortView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResortView.swift; sourceTree = "<group>"; };
+		90F9CE362668EFC2005A6BCD /* SkiDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkiDetailsView.swift; sourceTree = "<group>"; };
+		90F9CE382668F08E005A6BCD /* ResortDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResortDetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90F9CE312667F6FF005A6BCD /* FileManagerExtension in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,8 +70,15 @@
 			children = (
 				90F9CE1E2667EE7C005A6BCD /* SnowSeekerApp.swift */,
 				90F9CE202667EE7C005A6BCD /* ContentView.swift */,
+				90F9CE362668EFC2005A6BCD /* SkiDetailsView.swift */,
+				90F9CE382668F08E005A6BCD /* ResortDetailsView.swift */,
+				90F9CE342668EDBC005A6BCD /* ResortView.swift */,
+				901F06AA266939040025F789 /* Favorites.swift */,
+				901F06A8266932220025F789 /* Facility.swift */,
+				90F9CE2D2667F209005A6BCD /* ResortModel.swift */,
 				90F9CE222667EE80005A6BCD /* Assets.xcassets */,
 				90F9CE272667EE80005A6BCD /* Info.plist */,
+				90F9CE322667F883005A6BCD /* resorts.json */,
 				90F9CE242667EE80005A6BCD /* Preview Content */,
 			);
 			path = SnowSeeker;
@@ -85,6 +108,9 @@
 			dependencies = (
 			);
 			name = SnowSeeker;
+			packageProductDependencies = (
+				90F9CE302667F6FF005A6BCD /* FileManagerExtension */,
+			);
 			productName = SnowSeeker;
 			productReference = 90F9CE1B2667EE7C005A6BCD /* SnowSeeker.app */;
 			productType = "com.apple.product-type.application";
@@ -112,6 +138,9 @@
 				Base,
 			);
 			mainGroup = 90F9CE122667EE7C005A6BCD;
+			packageReferences = (
+				90F9CE2F2667F6FF005A6BCD /* XCRemoteSwiftPackageReference "SwiftPackage-FileManagerExtension" */,
+			);
 			productRefGroup = 90F9CE1C2667EE7C005A6BCD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +155,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90F9CE332667F883005A6BCD /* resorts.json in Resources */,
 				90F9CE262667EE80005A6BCD /* Preview Assets.xcassets in Resources */,
 				90F9CE232667EE80005A6BCD /* Assets.xcassets in Resources */,
 			);
@@ -138,7 +168,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90F9CE392668F08E005A6BCD /* ResortDetailsView.swift in Sources */,
 				90F9CE212667EE7C005A6BCD /* ContentView.swift in Sources */,
+				90F9CE372668EFC2005A6BCD /* SkiDetailsView.swift in Sources */,
+				90F9CE352668EDBC005A6BCD /* ResortView.swift in Sources */,
+				90F9CE2E2667F209005A6BCD /* ResortModel.swift in Sources */,
+				901F06AB266939040025F789 /* Favorites.swift in Sources */,
+				901F06A9266932220025F789 /* Facility.swift in Sources */,
 				90F9CE1F2667EE7C005A6BCD /* SnowSeekerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -328,6 +364,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		90F9CE2F2667F6FF005A6BCD /* XCRemoteSwiftPackageReference "SwiftPackage-FileManagerExtension" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/eviskum/SwiftPackage-FileManagerExtension.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		90F9CE302667F6FF005A6BCD /* FileManagerExtension */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 90F9CE2F2667F6FF005A6BCD /* XCRemoteSwiftPackageReference "SwiftPackage-FileManagerExtension" */;
+			productName = FileManagerExtension;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 90F9CE132667EE7C005A6BCD /* Project object */;
 }
